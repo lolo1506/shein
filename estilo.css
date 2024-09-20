@@ -1,9 +1,30 @@
 body{
-background-color: rgb(243, 208, 219) ;
+background-color: rgb(255, 234, 241) ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 0%;
 }  
 
 .pag-inicial {
-  
-    background-color: rgb(160, 66, 93);
+background-color: rgb(222, 170, 185);
+height: 300px;
+}
 
+.botoes a{
+text-decoration: none;
+background-color: rgb(214, 120, 150);
+font-size: 20px;
+color: rgb(89, 11, 36);
+padding: 10px;
+border-radius: 5px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 180px;
+}
+
+h1{
+    color: rgb(78, 5, 29);
 }
