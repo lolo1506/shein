@@ -122,3 +122,35 @@ margin-top: 150px;
     border-radius: 5px;
     align-items: center;
     }
+
+    
+.caixa-esqueci-minha-senha {
+    background-color:rgb(255, 204, 229);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 180px;
+    height: 300px;
+    }
+    
+    .caixa-esqueci-minha-senha input{
+        width: 300PX;
+        height: 30px;
+        font-size: 1.1rem;
+        
+        border-radius: 10px;
+        border: solid;
+        border-width: 1px;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .botoes-esqueci a{
+        text-decoration: none;
+        background-color: rgb(204, 112, 153);
+        font-size: 20px;
+        color: rgb(71, 37, 49);
+        padding: 10px;
+        border-radius: 5px;
+        align-items: center;
+    }
