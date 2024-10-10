@@ -157,24 +157,29 @@ input {
 
 .inicio img {
     border-radius: 5%;
+    transition-duration: 0.3s;
+    border: 2px solid rgb(221, 149, 181);
 }
 
-.itens1 img{
+.itens1 img:hover {
     border-radius: 5%;
     width: 200px;
     height: 270px;
+    transform: scale(1.1);
 }
 
-.itens2 img{
+.itens2 img:hover {
     border-radius: 5%;
     width: 200px;
     height: 270px;
+    transform: scale(1.1);
 }
 
-.itens3 img{
+.itens3 img:hover {
     border-radius: 5%;
     width: 200px;
     height: 270px;
+    transform: scale(1.1);
 }
 
 .inicio input {
@@ -216,25 +221,28 @@ div.icones {
     width: 10%;
     align-items: center;
 }
-   
-div.itens1{
+
+div.itens1 {
     display: flex;
     justify-content: space-around;
     width: 100%;
     align-items: center;
-    margin-right: 1%;
 }
 
-div.itens2{
+div.itens2 {
     display: flex;
     justify-content: space-around;
     width: 99%;
     align-items: center;
 }
 
-div.itens3{
+div.itens3 {
     display: flex;
     justify-content: space-around;
     width: 99%;
     align-items: center;
+}
+
+.inicio a {
+    text-decoration: none;
 }
