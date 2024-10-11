@@ -4,6 +4,8 @@ body {
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
+    align-items: center;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -11,7 +13,6 @@ body {
     background-color: rgb(255, 204, 229);
     height: 350px;
     padding: 80px;
-    margin-top: 90px;
 }
 
 div.pag-inicial {
@@ -58,11 +59,15 @@ a {
     color: rgb(80, 26, 50);
 }
 
+body.login{
+    align-items: center;
+    height: 100vh;
+}
+
 .caixa-de-login {
     background-color: rgb(255, 204, 229);
     padding: 30px;
     border-radius: 20px;
-    margin-top: 200px;
 }
 
 .caixa-de-login input {
@@ -92,11 +97,15 @@ input {
     color: rgb(80, 26, 50);
 }
 
+body.cadastro{
+    align-items: center;
+    height: 100vh;
+}
+
 .caixa-de-cadastro {
     background-color: rgb(255, 204, 229);
     padding: 30px;
     border-radius: 20px;
-    margin-top: 150px;
 }
 
 .caixa-de-cadastro input {
@@ -123,12 +132,20 @@ input {
     align-items: center;
 }
 
+body.esqueci-minha-senha{
+    align-items: center;
+    height: 100vh;
+}
+
+body.esqueci-minha-senha2{
+    align-items: center;
+    height: 100vh;
+}
 
 .caixa-esqueci-minha-senha {
     background-color: rgb(255, 204, 229);
     padding: 30px;
     border-radius: 20px;
-    margin-top: 180px;
     height: 300px;
 }
 
@@ -153,6 +170,16 @@ input {
     padding: 10px;
     border-radius: 5px;
     align-items: center;
+}
+
+body.inicio{
+    align-items: center;
+    height: 100vh;
+}
+
+div.inicio{
+    align-items: center;
+    height: 100vh;
 }
 
 .inicio img {
@@ -193,8 +220,6 @@ input {
 
     padding-left: 10px;
     padding-right: 10px;
-
-    margin-left: 20%;
 }
 
 .barra-pesquisa {
@@ -215,7 +240,6 @@ body.inicio {
 }
 
 div.icones {
-    margin-left: 10%;
     display: flex;
     justify-content: space-between;
     width: 10%;
