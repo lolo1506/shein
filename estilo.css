@@ -1,4 +1,4 @@
-body {
+body#paginainicial, body.login, body.cadastro, body.esqueci-minha-senha2, body.esqueci-minha-senha{
     background-image: linear-gradient(150deg, #DC709F, #EEC2D6);
     background-attachment: fixed;
     align-items: center;
@@ -180,31 +180,15 @@ body.inicio{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    height: 100vh;
 }
 
-.inicio img {
+.itens img {
     border-radius: 5%;
     transition-duration: 0.3s;
     border: 2px solid rgb(221, 149, 181);
 }
 
-.itens1 img:hover {
-    border-radius: 5%;
-    width: 200px;
-    height: 270px;
-    transform: scale(1.1);
-}
-
-.itens2 img:hover {
-    border-radius: 5%;
-    width: 200px;
-    height: 270px;
-    transform: scale(1.1);
-}
-
-.itens3 img:hover {
+.itens img:hover {
     border-radius: 5%;
     width: 200px;
     height: 270px;
@@ -238,25 +222,12 @@ div.icones {
     align-items: center;
 }
 
-div.itens1 {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
-}
-
-div.itens2 {
+div.itens {
     display: flex;
     justify-content: space-around;
     width: 99%;
     align-items: center;
-}
-
-div.itens3 {
-    display: flex;
-    justify-content: space-around;
-    width: 99%;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .inicio a {
