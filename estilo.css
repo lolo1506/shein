@@ -25,6 +25,14 @@ div.pag-inicial {
     border-radius: 500px;
 }
 
+.botao a{
+    transition: background-color 0.5s ease;
+}
+
+.botao a:hover{
+    color: #950443;
+}
+
 .botoes a {
     text-decoration: none;
     background-color: rgb(255, 239, 245);
@@ -33,6 +41,11 @@ div.pag-inicial {
     padding: 10px;
     border-radius: 5px;
     align-items: center;
+    transition-duration: 0.3s;
+}
+
+.botoes a:hover{
+    transform: scale(1.05);
 }
 
 .botoes {
@@ -85,12 +98,21 @@ body.login{
 
 .botoes-login a {
     text-decoration: none;
+}
+
+.botoes-login {
     background-color: rgb(204, 112, 153);
     font-size: 20px;
     color: rgb(71, 37, 49);
     padding: 10px;
     border-radius: 5px;
     align-items: center;
+    width:62px;
+    transition-duration: 0.3s;
+}
+
+.botoes-login:hover {
+    transform: scale(1.05);
 }
 
 input {
@@ -121,15 +143,23 @@ body.cadastro{
     padding-right: 10px;
 }
 
-
 .botoes-cadastro a {
     text-decoration: none;
+}
+
+.botoes-cadastro {
     background-color: rgb(204, 112, 153);
     font-size: 20px;
     color: rgb(71, 37, 49);
     padding: 10px;
     border-radius: 5px;
     align-items: center;
+    width: 102px;
+    transition-duration: 0.3s;
+}
+
+.botoes-cadastro:hover {
+    transform: scale(1.05);
 }
 
 body.esqueci-minha-senha{
@@ -164,12 +194,21 @@ body.esqueci-minha-senha2{
 
 .botoes-esqueci a {
     text-decoration: none;
+}
+
+.botoes-esqueci {
     background-color: rgb(204, 112, 153);
     font-size: 20px;
     color: rgb(71, 37, 49);
     padding: 10px;
     border-radius: 5px;
     align-items: center;
+    width: 92px;
+    transition-duration: 0.3s;
+}
+
+.botoes-esqueci:hover {
+    transform: scale(1.05);
 }
 
 body.inicio{
@@ -192,7 +231,7 @@ body.inicio{
     border-radius: 5%;
     width: 200px;
     height: 270px;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .inicio input {
@@ -215,17 +254,25 @@ body.inicio{
     align-items: center;
 }
 
-div.icones {
+.icones {
     display: flex;
     justify-content: space-between;
     width: 10%;
     align-items: center;
 }
 
+.icones a{
+    transition-duration: 0.3s;
+}
+
+.icones a:hover{
+    transform: scale(1.1);
+}
+
 div.itens {
     display: flex;
     justify-content: space-around;
-    width: 99%;
+    width: 100%;
     align-items: center;
     flex-wrap: wrap;
 }
