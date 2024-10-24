@@ -13,7 +13,7 @@ Neste repositório está implementado o sistema Harmony, um site para ouvir musi
 
 ### Clonar repositório do Github
 1. Primeiro, clique no botão "controle de código de fonte"
-![imagem 01]()
+![imagem 01](README-IMG\img.jpg)
 
 2. Clique em "Clonar repositório", "clonar de git " e  clique em "Permitir" na janela que vai aparecer.
 
@@ -31,7 +31,7 @@ Neste repositório está implementado o sistema Harmony, um site para ouvir musi
 ### Instalar a biblioteca Flask
 1. Abrir um novo terminal: Barra de ferramentas > Tres pontinhos > Terminal > Novo terminal.
 
-![imagem 01](readme-img/ter)
+![imagem 01](README-IMG\Capturar.PNG)
 2. Digite o comando  ` pip install flask --user` e precione enter 
 
 ### Configurando  GIT 
@@ -39,3 +39,6 @@ Neste repositório está implementado o sistema Harmony, um site para ouvir musi
 ` git config user.name seu_usuario `
 
 ` git config user.email seu _nome@gmail.com`
+
+### Como executar o sirvidor
+1. Clique com o botão direito no arquivo "app.py" e selecione "Executar o arquivo Python no terminal"
