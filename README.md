@@ -32,13 +32,13 @@ Neste repositório está implementado o sistema Harmony, um site para ouvir musi
 1. Abrir um novo terminal: Barra de ferramentas > Tres pontinhos > Terminal > Novo terminal.
 
 ![imagem 01](README-IMG\Capturar.PNG)
-2. Digite o comando  ` pip install flask --user` e precione enter 
+2. Digite o comando  `pip install flask --user` e precione enter 
 
 ### Configurando  GIT 
 1. No terminal digital os comandos: 
-` git config user.name seu_usuario `
+`git config user.name seu_usuario`
 
-` git config user.email seu _nome@gmail.com`
+`git config user.email seu _nome@gmail.com`
 
 ### Como executar o sirvidor
 1. Clique com o botão direito no arquivo "app.py" e selecione "Executar o arquivo Python no terminal"
