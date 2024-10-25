@@ -10,6 +10,12 @@ def home():
 def login():
     return render_template('login.html')
 
+usuarios = {
+    'lolo' : 'helo1506'
+    'unlucky' : 'marine1234'
+    'dipalves' : 'mari2106'
+}
+
 @app.route('/cadastro')
 def cadastro():
     return render_template('cadastro.html')

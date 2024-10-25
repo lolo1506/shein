@@ -96,10 +96,6 @@ body.login{
     padding-right: 10px;
 }
 
-.botoes-login a {
-    text-decoration: none;
-}
-
 .botoes-login {
     background-color: rgb(204, 112, 153);
     font-size: 20px;
