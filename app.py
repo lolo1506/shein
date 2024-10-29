@@ -11,10 +11,21 @@ def login():
     return render_template('login.html')
 
 usuarios = {
-    'lolo' : 'helo1506'
-    'unlucky' : 'marine1234'
+    'lolo' : 'helo1506',
+    'unlucky' : 'marine1234',
     'dipalves' : 'mari2106'
 }
+
+@app.route("/verificar-login", methods=["post"])
+def verificar_login():
+    username = request.form['username']
+    password = request.form['password']
+    
+    if username in usuarios and usuarios[username] == password:
+        return f"Bem-vindo, {username}!"
+    else:
+        return "Usuário ou senha invalidos."
+
 
 @app.route('/cadastro')
 def cadastro():
