@@ -11,6 +11,18 @@
 
 <div class="caixa-de-login">
     <form action="/verificar-login" method="post">
+
+{% with messages = get_flashed_messages () %}
+{% if messages %}
+<div class ="resposta">
+    {% for message in messages %}
+    <p>{{message}}</p>
+    {% endfor %}
+</div>
+{% endif %}
+{% endwith %}
+{% block body %}{% endblock %}
+
 <h2>LOGIN</h2>
 <p>Usuário</p>
 <input type="text" id='username' name='username' placeholder="Digite seu usuário">

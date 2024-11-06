@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request
-
+from flask import Flask, render_template, request, redirect, flash, url_for
 app = Flask(__name__)
+app.secret_key = "chave_muito_segura"
 
 @app.route('/')
 def home():
@@ -22,10 +22,10 @@ def verificar_login():
     password = request.form['password']
     
     if username in usuarios and usuarios[username] == password:
-        return f"Bem-vindo, {username}!"
+        return redirect(url_for('galeria'))
     else:
-        return "Usuário ou senha invalidos."
-
+        flash('Usuário ou senha invalidos','danger')
+        return redirect(url_for('login'))
 
 @app.route('/cadastro')
 def cadastro():

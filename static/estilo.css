@@ -96,15 +96,15 @@ body.login{
     padding-right: 10px;
 }
 
-.botoes-login {
+.botoes-login button {
     background-color: rgb(204, 112, 153);
     font-size: 20px;
     color: rgb(71, 37, 49);
     padding: 10px;
     border-radius: 5px;
     align-items: center;
-    width:62px;
     transition-duration: 0.3s;
+    border: none;
 }
 
 .botoes-login:hover {
