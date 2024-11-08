@@ -1,6 +1,16 @@
-from flask import Flask, render_template, request, redirect, flash, url_for
+import sqlite3
+from flask import Flask, render_template, request, redirect, flash, url_for, sqlite3
 app = Flask(__name__)
 app.secret_key = "chave_muito_segura"
+
+def get_db_connection():
+    conn = sqlite3.get_db_connect('meu_banco.db')
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def init_db():
+    conn = get_db_connection
+    conn.execute()
 
 @app.route('/')
 def home():
