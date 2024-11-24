@@ -36,9 +36,9 @@ Neste repositório está implementado o sistema Harmony, um site para ouvir musi
 
 ### Configurando  GIT 
 1. No terminal digital os comandos: 
-`git config user.name seu_usuario`
+`git config user.name lolo1506`
 
-`git config user.email seu _nome@gmail.com`
+`git config user.email hribeiro1506@gmail.com`
 
 ### Como executar o sirvidor
 1. Clique com o botão direito no arquivo "app.py" e selecione "Executar o arquivo Python no terminal"
